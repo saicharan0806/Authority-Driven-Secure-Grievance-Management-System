@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register Complaint</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Register Complaint</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="register.html">Register Complaint</a>
+            <a href="track.html">Track Complaint</a>
+            <a href="complaints.html">View Complaints</a>
+        </nav>
+
+    </header>
+
+    <div class="container">
+
+        <div class="form-box">
+
+            <h2>Complaint Registration</h2>
+
+            <form id="complaintForm">
+
+                <input type="text" id="name" placeholder="Enter Your Name" required>
+
+                <select id="category">
+
+<option value="">Select Complaint Category</option>
+<option>Faculty</option>
+<option>Transport</option>
+<option>Hostel</option>
+<option>Office</option>
+
+</select>
+
+                <textarea id="description" placeholder="Enter Complaint Description"></textarea>
+
+                <button type="submit">Submit Complaint</button>
+
+            </form>
+
+            <p id="result"></p>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
